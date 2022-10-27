@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-bg{
+    background: rgb(37, 2, 152);
+}
+
+.icon-bg {
+    border: 1px solid yellow;
+    border-radius: 50%;
+    width: 150px;
+    background: yellow;
+    padding: 50px 3px !important;
+    margin-top: 30px !important;
+}
+
+.icon-bg:hover{
+    background: #000;
+    color: aqua;
+}
+
+.card{
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(209, 62, 254);
+    box-shadow: 5px 5px 10px black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* feature */
+.feature-icon-bg{
+    border: 1px solid yellow;
+    border-radius: 50%;
+    width: 70px;
+    background: yellow;
+    padding: 20px!important;
+    margin-top: 30px !important;
+}
